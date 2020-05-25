@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-image: url('https://cdnroute.bpsgameserver.com/common/Common/Common/neutral/image/2017/03/game.netentBlackjack3Hand.backgroundimage_v3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +42,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.blackjeck-game{
+  height: max-content;
+  width: max-content;
+  margin: auto;
+  align-self: center;
+}
+
+.title{
+  position: absolute;
+  inline-size: -webkit-fill-available;
+  color:red;
+  text-shadow: 1px 1px yellowgreen;
+}
+
+.color-Shadow{
+  color:red;
+  text-shadow: 1px 1px yellowgreen;
 }

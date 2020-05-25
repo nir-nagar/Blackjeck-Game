@@ -1,0 +1,39 @@
+.game-over{
+    width:400px;
+    height: 250px;
+    /* background-color: black; 
+    height: max-content;
+    width: max-content;
+    margin: auto;
+    align-self: center;
+    position: absolute; */
+
+    background-image: linear-gradient(to right, red , yellow);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    /* opacity: 0.9; */
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  .game-over-full-screen-opacity{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color: black;
+    opacity: 0.8;
+
+  }
+  .game-over-full-screen{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }

@@ -1,0 +1,67 @@
+.Game{
+    width: 900px;
+    height: 577px;
+    border:  double black 12px;
+    display: flex;
+    flex: auto;
+    display: inline-block;
+}
+
+.remainingCards{
+    color: red;
+    margin-right: 10px;
+    text-shadow: 1px 1px #dbc2c2;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.remainingCardsPosition{
+    position: absolute;
+    right: 243px;
+    top: 574px;
+}
+
+.rowCard{
+    display: flex;
+    height: 140px;
+    flex-direction: row;    
+    margin-left: 80px;
+}
+
+.playerErea{
+    border:  double black 12px;
+    width: 480px;
+    height: 213px;
+    display: inline-flex;    
+    margin: 18px;
+}
+
+.botton{
+    position: absolute;
+    right:    0;
+    bottom:   0;
+}
+
+.shadow{
+    text-shadow: 1px 1px #dbc2c2;
+}
+
+.display {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display-button{
+    text-align: -webkit-right;
+    margin-top: 20px;
+    display: grid;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+.start-again{
+    position: absolute;
+}
+

@@ -1,0 +1,9 @@
+.Card{
+    margin: 3px;
+}
+
+.Card img{
+    width: 100px;
+    height: 125px;
+    margin-left: -80px;
+}
